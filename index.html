@@ -15,16 +15,20 @@
 <meta property="og:site_name" content="سريع">
 <meta property="og:locale" content="ar_EG">
 <meta property="og:title" content="سريع | نظام كاشير محاسبي احترافي - جرّب 7 أيام مجاناً">
-<meta property="og:description" content="أداء صاروخي لإدارة أعمالك بضغطة زر.. انطلق بتجارتك مع نظام «سريع» المبني على أحدث معمارية برمجية.">
+<meta property="og:description" content="أداء صاروخي لإدارة أعمالك بضغطة زر.. انطلق بتجارتك مع نظام «سريع» المبني على أحدث معمارية برمجية. جرّب 7 أيام مجاناً.">
 <meta property="og:url" content="https://getsaree.github.io/saree/">
-<meta property="og:image" content="og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://getsaree.github.io/saree/og.png">
+<meta property="og:image:secure_url" content="https://getsaree.github.io/saree/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="نظام سريع - كاشير محاسبي احترافي">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="سريع | نظام كاشير محاسبي احترافي">
 <meta name="twitter:description" content="أداء صاروخي لإدارة أعمالك بضغطة زر.. جرّب 7 أيام مجاناً.">
-<meta name="twitter:image" content="og.png">
+<meta name="twitter:image" content="https://getsaree.github.io/saree/og.png">
+<meta name="twitter:image:alt" content="نظام سريع - كاشير محاسبي احترافي">
 
 <link rel="icon" type="image/png" href="og.png">
 <link rel="apple-touch-icon" href="og.png">
@@ -52,7 +56,6 @@ img{max-width:100%;display:block}
 a{text-decoration:none;color:inherit}
 ul{list-style:none}
 button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
-video{display:block;max-width:100%}
 ::selection{background:var(--primary);color:#fff}
 ::-webkit-scrollbar{width:10px}
 ::-webkit-scrollbar-track{background:#eef2f9}
@@ -62,19 +65,7 @@ video{display:block;max-width:100%}
 .container{width:min(1200px,92%);margin-inline:auto}
 .section{padding:96px 0;position:relative}
 
-.brand-logo{
-  width:clamp(80px, 13vw, 130px);
-  height:auto;
-  object-fit:contain;
-  display:block;
-  flex-shrink:0;
-  background:transparent;
-  border:none;
-  border-radius:0;
-  box-shadow:none;
-  padding:0;
-}
-
+.brand-logo{width:clamp(80px, 13vw, 130px);height:auto;object-fit:contain;display:block;flex-shrink:0;background:transparent;border:none;border-radius:0;box-shadow:none;padding:0}
 .sec-icon{width:clamp(72px, 10vw, 96px);height:auto;margin:0 auto 18px;object-fit:contain;display:block}
 .hero-badge img{width:clamp(32px, 4.5vw, 40px);height:auto;object-fit:contain;flex-shrink:0}
 .dl-icon{width:clamp(80px, 12vw, 110px);height:auto;object-fit:contain;flex-shrink:0}
@@ -133,50 +124,20 @@ video{display:block;max-width:100%}
 .slide.active{opacity:1;z-index:1}
 .slide.active img{transform:scale(1.08)}
 
-.hero-overlay{
-  position:absolute;inset:0;z-index:2;
-  background:linear-gradient(180deg,
-    rgba(0,0,0,.58) 0%,
-    rgba(0,0,0,.48) 42%,
-    rgba(0,0,0,.60) 78%,
-    rgba(248,250,252,.95) 100%);
-  pointer-events:none;
-}
-
+.hero-overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.58) 0%,rgba(0,0,0,.48) 42%,rgba(0,0,0,.60) 78%,rgba(248,250,252,.95) 100%);pointer-events:none}
 .hero .container{position:relative;z-index:3}
 .hero-content{text-align:center;max-width:920px;margin-inline:auto}
-
-.hero-badge{
-  display:inline-flex;align-items:center;gap:10px;
-  background:rgba(255,255,255,.96);border:1px solid var(--primary-soft);
-  padding:8px 20px 8px 10px;border-radius:999px;margin-bottom:22px;
-  box-shadow:0 10px 24px rgba(0,0,0,.35);
-  font-size:.85rem;font-weight:700;color:var(--primary);
-}
+.hero-badge{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.96);border:1px solid var(--primary-soft);padding:8px 20px 8px 10px;border-radius:999px;margin-bottom:22px;box-shadow:0 10px 24px rgba(0,0,0,.35);font-size:.85rem;font-weight:700;color:var(--primary)}
 .hero-badge i{font-style:normal;color:var(--muted);font-weight:500}
-
-.hero h1{
-  font-size:clamp(1.7rem,4.4vw,3.3rem);
-  font-weight:800;color:#ffffff;line-height:1.55;letter-spacing:-.8px;
-  text-shadow:0 4px 28px rgba(0,0,0,.85), 0 2px 10px rgba(0,0,0,.7);
-}
-
-.hero-sub{
-  margin-top:18px;font-size:clamp(1rem,2vw,1.2rem);
-  color:#cbd5e1;
-  font-weight:500;max-width:820px;margin-inline:auto;
-  line-height:1.95;text-shadow:0 3px 16px rgba(0,0,0,.75), 0 1px 4px rgba(0,0,0,.6);
-}
+.hero h1{font-size:clamp(1.7rem,4.4vw,3.3rem);font-weight:800;color:#ffffff;line-height:1.55;letter-spacing:-.8px;text-shadow:0 4px 28px rgba(0,0,0,.85), 0 2px 10px rgba(0,0,0,.7)}
+.hero-sub{margin-top:18px;font-size:clamp(1rem,2vw,1.2rem);color:#cbd5e1;font-weight:500;max-width:820px;margin-inline:auto;line-height:1.95;text-shadow:0 3px 16px rgba(0,0,0,.75), 0 1px 4px rgba(0,0,0,.6)}
 .hero-sub strong{color:#ffffff;font-weight:800}
-
 .hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
 .trial-pill{display:inline-flex;align-items:center;gap:8px;margin-top:22px;background:linear-gradient(135deg,#ecfdf5,#d1fae5);color:#065f46;padding:10px 22px;border-radius:999px;font-size:.87rem;font-weight:800;border:1px solid #a7f3d0;box-shadow:0 10px 24px rgba(0,0,0,.3)}
 .trial-pill svg{width:16px;height:16px}
-
 .hero-dots{display:flex;gap:9px;justify-content:center;margin-top:34px}
 .hero-dots button{width:32px;height:6px;border-radius:99px;background:rgba(255,255,255,.45);transition:width .35s ease,background .35s ease;box-shadow:0 2px 6px rgba(0,0,0,.3)}
 .hero-dots button.active{background:#fff;width:52px}
-
 .hero-arrow{position:absolute;top:38%;z-index:4;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.95);color:var(--primary);box-shadow:0 10px 24px rgba(0,0,0,.4);display:none;align-items:center;justify-content:center;transition:background .3s ease,color .3s ease,transform .3s ease}
 .hero-arrow:hover{background:var(--primary);color:#fff;transform:scale(1.08)}
 .hero-arrow svg{width:22px;height:22px}
@@ -185,78 +146,22 @@ video{display:block;max-width:100%}
 @media (min-width:992px){ .hero-arrow{display:flex} }
 
 .hero-visual{position:relative;z-index:3;display:flex;justify-content:center;margin-top:54px}
-.hero-square{
-  width:clamp(280px, 42vw, 500px);
-  aspect-ratio:1/1;
-  border-radius:clamp(24px, 3.5vw, 42px);
-  overflow:hidden;
-  background:#fff;
-  padding:clamp(10px, 1.6vw, 18px);
-  box-shadow:0 32px 70px rgba(0,0,0,.45), 0 12px 30px rgba(37,99,235,.3);
-  margin-bottom:calc(-1 * var(--overlap));
-  animation:floaty 6.5s ease-in-out infinite;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-.hero-square img{
-  width:100%;height:100%;
-  object-fit:contain;
-  object-position:center;
-  border-radius:clamp(14px, 2vw, 26px);
-}
+.hero-square{width:clamp(280px, 42vw, 500px);aspect-ratio:1/1;border-radius:clamp(24px, 3.5vw, 42px);overflow:hidden;background:#fff;padding:clamp(10px, 1.6vw, 18px);box-shadow:0 32px 70px rgba(0,0,0,.45), 0 12px 30px rgba(37,99,235,.3);margin-bottom:calc(-1 * var(--overlap));animation:floaty 6.5s ease-in-out infinite;display:flex;align-items:center;justify-content:center}
+.hero-square img{width:100%;height:100%;object-fit:contain;object-position:center;border-radius:clamp(14px, 2vw, 26px)}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 
-.section-parallax{
-  background-size:cover;
-  background-position:center;
-  background-attachment:fixed;
-  background-repeat:no-repeat;
-  background-color:#e8eefb;
-  position:relative;
-}
-
-.section-parallax::before{
-  content:'';
-  position:absolute;inset:0;
-  background:linear-gradient(180deg,rgba(248,250,252,.78) 0%,rgba(248,250,252,.72) 50%,rgba(248,250,252,.82) 100%);
-  z-index:0;
-  pointer-events:none;
-}
+.section-parallax{background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;background-color:#e8eefb;position:relative}
+.section-parallax::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(248,250,252,.78) 0%,rgba(248,250,252,.72) 50%,rgba(248,250,252,.82) 100%);z-index:0;pointer-events:none}
 .section-parallax > .container{position:relative;z-index:1}
-
-@media (max-width: 991px) {
-  .section-parallax {
-    background-attachment: scroll;
-    background-size: contain;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-color: #dce6f7;
-    padding-top: 260px;
-  }
-  .section-parallax::before{
-    background:linear-gradient(180deg,
-      rgba(248,250,252,.15) 0%,
-      rgba(248,250,252,.65) 25%,
-      rgba(248,250,252,.82) 50%,
-      rgba(248,250,252,.88) 100%);
-  }
+@media (max-width: 991px){
+  .section-parallax{background-attachment:scroll;background-size:contain;background-position:center top;background-repeat:no-repeat;background-color:#dce6f7;padding-top:260px}
+  .section-parallax::before{background:linear-gradient(180deg,rgba(248,250,252,.15) 0%,rgba(248,250,252,.65) 25%,rgba(248,250,252,.82) 50%,rgba(248,250,252,.88) 100%)}
 }
-
-@media (max-width: 480px) {
-  .section-parallax {
-    padding-top: 220px;
-    background-size: contain;
-  }
-}
+@media (max-width: 480px){ .section-parallax{padding-top:220px;background-size:contain} }
 
 #audience{padding-top:calc(88px + var(--overlap))}
-@media (max-width: 991px) {
-  #audience { padding-top: 260px; }
-}
-@media (max-width: 480px) {
-  #audience { padding-top: 220px; }
-}
+@media (max-width: 991px){ #audience{padding-top:260px} }
+@media (max-width: 480px){ #audience{padding-top:220px} }
 
 .audience-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
 .aud-card{background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:var(--radius);padding:30px 24px;text-align:center;transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease;box-shadow:var(--shadow-sm)}
@@ -280,7 +185,9 @@ video{display:block;max-width:100%}
 
 .video-wrap{max-width:920px;margin:64px auto 0;background:#fff;border:1px solid var(--line);border-radius:26px;padding:22px;box-shadow:var(--shadow-md)}
 .video-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}
-.video-wrap video{width:100%;border-radius:18px;background:#0f172a;aspect-ratio:16/9;object-fit:cover}
+.video-frame{position:relative;width:100%;aspect-ratio:16 / 9;border-radius:18px;overflow:hidden;background:#0f172a;box-shadow:0 10px 30px rgba(15,23,42,.25);pointer-events:none;user-select:none}
+.video-frame video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.video-frame .video-fallback{position:absolute;inset:0;display:none;align-items:center;justify-content:center;background:#0f172a center/cover no-repeat;background-image:url('og.png')}
 
 .shots-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
 .shot{position:relative;border-radius:18px;overflow:hidden;cursor:pointer;border:1px solid var(--line);background:#f0f4fa;box-shadow:var(--shadow-sm);transition:transform .4s ease,box-shadow .4s ease;aspect-ratio:4/3;padding:10px}
@@ -352,9 +259,7 @@ video{display:block;max-width:100%}
 .install-note h4{font-size:1.05rem;font-weight:800;margin-bottom:6px;color:var(--ink)}
 .install-note p{color:#44506a;font-size:.9rem}
 .install-note p strong{color:var(--primary)}
-@media (max-width:640px){
-  .install-note{padding:22px 20px;flex-direction:column;text-align:center}
-}
+@media (max-width:640px){ .install-note{padding:22px 20px;flex-direction:column;text-align:center} }
 
 .trial-card{margin-top:32px;background:#fff;border:2px dashed var(--green);border-radius:24px;padding:34px 30px;box-shadow:var(--shadow-sm);display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;transition:transform .35s ease,box-shadow .35s ease}
 .trial-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg)}
@@ -432,7 +337,234 @@ video{display:block;max-width:100%}
 .whatsapp-float svg{width:32px;height:32px}
 .wa-tip{position:absolute;left:calc(100% + 12px);top:50%;transform:translateY(-50%) translateX(8px);background:#111827;color:#fff;font-size:.78rem;font-weight:700;white-space:nowrap;padding:7px 14px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s ease}
 .whatsapp-float:hover .wa-tip{opacity:1;transform:translateY(-50%) translateX(0)}
+
+/* ==========================================================
+   محادثة سريع الذكية
+========================================================== */
+.chat-float{
+  position:fixed;
+  bottom:100px;
+  right:26px;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#2563eb 0%,#1d4ed8 100%);
+  color:#fff;
+  display:grid;
+  place-items:center;
+  box-shadow:0 14px 32px rgba(37,99,235,.45);
+  z-index:199;
+  transition:transform .3s ease,box-shadow .3s ease;
+  cursor:pointer;
+}
+.chat-float::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  border-radius:50%;
+  background:#2563eb;
+  opacity:.5;
+  animation:waPulse 2.2s ease-out infinite;
+  z-index:-1;
+}
+.chat-float:hover{transform:scale(1.09) rotate(-4deg);box-shadow:0 20px 40px rgba(37,99,235,.6)}
+.chat-float svg{width:30px;height:30px}
+.chat-badge{
+  position:absolute;
+  top:-4px;
+  right:-4px;
+  background:#ef4444;
+  color:#fff;
+  font-size:.7rem;
+  font-weight:800;
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  box-shadow:0 4px 10px rgba(239,68,68,.4);
+  animation:badgePulse 1.8s ease-in-out infinite;
+}
+@keyframes badgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+.chat-float .chat-tip{
+  position:absolute;
+  left:calc(100% + 12px);
+  top:50%;
+  transform:translateY(-50%) translateX(8px);
+  background:#111827;
+  color:#fff;
+  font-size:.78rem;
+  font-weight:700;
+  white-space:nowrap;
+  padding:7px 14px;
+  border-radius:10px;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .3s ease,transform .3s ease;
+}
+.chat-float:hover .chat-tip{opacity:1;transform:translateY(-50%) translateX(0)}
+
+.chat-window{
+  position:fixed;
+  bottom:175px;
+  right:26px;
+  width:380px;
+  max-width:calc(100vw - 32px);
+  height:560px;
+  max-height:calc(100vh - 220px);
+  background:#fff;
+  border-radius:24px;
+  box-shadow:0 30px 70px rgba(15,23,42,.28),0 12px 30px rgba(37,99,235,.18);
+  z-index:250;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(20px) scale(.96);
+  transform-origin:bottom right;
+  transition:opacity .35s ease,transform .35s cubic-bezier(.2,.75,.3,1),visibility .35s ease;
+}
+.chat-window.open{opacity:1;visibility:visible;transform:translateY(0) scale(1)}
+
+.chat-header{
+  background:linear-gradient(135deg,#2563eb 0%,#1d4ed8 100%);
+  color:#fff;
+  padding:16px 18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  flex-shrink:0;
+}
+.chat-header-info{display:flex;align-items:center;gap:12px}
+.chat-header-info img{
+  width:46px;height:46px;border-radius:14px;
+  background:#fff;padding:5px;object-fit:contain;flex-shrink:0;
+}
+.chat-header-info strong{display:block;font-size:.98rem;font-weight:800;line-height:1.3}
+.chat-header-info small{display:flex;align-items:center;gap:6px;font-size:.75rem;opacity:.92;font-weight:500}
+.online-dot{
+  width:8px;height:8px;border-radius:50%;
+  background:#4ade80;
+  box-shadow:0 0 0 2px rgba(74,222,128,.35);
+  animation:onlinePulse 1.6s ease-in-out infinite;
+}
+@keyframes onlinePulse{0%,100%{opacity:1}50%{opacity:.5}}
+.chat-close{
+  width:36px;height:36px;border-radius:50%;
+  background:rgba(255,255,255,.15);color:#fff;
+  display:grid;place-items:center;
+  transition:background .3s ease,transform .3s ease;
+  flex-shrink:0;
+}
+.chat-close:hover{background:rgba(255,255,255,.3);transform:rotate(90deg)}
+.chat-close svg{width:18px;height:18px}
+
+.chat-body{
+  flex:1;
+  overflow-y:auto;
+  padding:18px 16px;
+  background:#f8fafc;
+  scroll-behavior:smooth;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.chat-body::-webkit-scrollbar{width:6px}
+.chat-body::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:99px}
+
+.msg{display:flex;gap:8px;max-width:88%;animation:msgIn .35s ease}
+@keyframes msgIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.msg.bot{align-self:flex-start}
+.msg.user{align-self:flex-end;flex-direction:row-reverse}
+.msg .avatar{
+  width:32px;height:32px;border-radius:50%;
+  background:#fff;padding:3px;object-fit:contain;flex-shrink:0;
+  box-shadow:0 3px 8px rgba(31,41,55,.1);
+}
+.msg .bubble{
+  background:#fff;color:#1f2937;
+  padding:11px 15px;border-radius:16px;border-top-right-radius:4px;
+  font-size:.9rem;line-height:1.75;
+  box-shadow:0 4px 12px rgba(31,41,55,.06);
+  word-wrap:break-word;white-space:pre-line;
+}
+.msg.user .bubble{
+  background:linear-gradient(135deg,#2563eb 0%,#1d4ed8 100%);
+  color:#fff;border-top-right-radius:16px;border-top-left-radius:4px;
+}
+.bubble a{color:#2563eb;font-weight:700;word-break:break-all}
+.msg.user .bubble a{color:#bfdbfe;text-decoration:underline}
+
+.chat-quick{
+  display:flex;flex-wrap:wrap;gap:6px;
+  padding:8px 14px 10px;background:#fff;
+  border-top:1px solid var(--line);
+  flex-shrink:0;
+}
+.chat-quick:empty{display:none}
+.chip{
+  background:var(--primary-tint);color:var(--primary);
+  border:1px solid var(--primary-soft);
+  border-radius:999px;padding:7px 14px;
+  font-size:.78rem;font-weight:700;cursor:pointer;
+  transition:background .25s ease,color .25s ease,transform .2s ease;
+  font-family:inherit;
+}
+.chip:hover{background:var(--primary);color:#fff;transform:translateY(-2px)}
+
+.chat-input{
+  display:flex;align-items:center;gap:8px;
+  padding:12px 14px;background:#fff;
+  border-top:1px solid var(--line);
+  flex-shrink:0;
+}
+.chat-input input{
+  flex:1;border:1px solid var(--line);
+  background:#f8fafc;padding:11px 15px;border-radius:999px;
+  font-family:inherit;font-size:.88rem;color:var(--ink);
+  outline:none;transition:border-color .25s ease,background .25s ease;
+}
+.chat-input input:focus{border-color:var(--primary);background:#fff}
+.chat-input button{
+  width:42px;height:42px;border-radius:50%;
+  background:linear-gradient(135deg,#2563eb 0%,#1d4ed8 100%);
+  color:#fff;display:grid;place-items:center;
+  transition:transform .25s ease,box-shadow .25s ease;
+  flex-shrink:0;
+  box-shadow:0 8px 20px rgba(37,99,235,.35);
+}
+.chat-input button:hover{transform:scale(1.08)}
+.chat-input button svg{width:19px;height:19px}
+
+.typing{
+  display:flex;gap:5px;padding:14px 18px;background:#fff;
+  border-radius:16px;border-top-right-radius:4px;
+  box-shadow:0 4px 12px rgba(31,41,55,.06);
+}
+.typing span{
+  width:7px;height:7px;border-radius:50%;background:#94a3b8;
+  animation:typingDot 1.2s ease-in-out infinite;
+}
+.typing span:nth-child(2){animation-delay:.15s}
+.typing span:nth-child(3){animation-delay:.3s}
+@keyframes typingDot{
+  0%,60%,100%{transform:translateY(0);opacity:.4}
+  30%{transform:translateY(-5px);opacity:1}
+}
+
 @media (max-width:520px){
+  .chat-float{width:54px;height:54px;bottom:90px;right:20px}
+  .chat-float svg{width:26px;height:26px}
+  .chat-tip{display:none}
+  .chat-window{
+    bottom:0;right:0;left:0;
+    width:100vw;max-width:100vw;
+    height:100vh;max-height:100vh;
+    border-radius:0;
+    transform-origin:bottom center;
+  }
   .whatsapp-float{width:54px;height:54px;bottom:20px;right:20px}
   .whatsapp-float svg{width:28px;height:28px}
   .to-top{width:46px;height:46px;bottom:20px;left:20px}
@@ -479,25 +611,13 @@ video{display:block;max-width:100%}
 
 <section class="hero" id="home">
   <div class="hero-slides" aria-hidden="true">
-    <div class="slide active">
-      <img src="slid1.jpg" alt="شريحة 1">
-    </div>
-    <div class="slide">
-      <img src="slid2.jpg" alt="شريحة 2">
-    </div>
-    <div class="slide">
-      <img src="slid3.jpg" alt="شريحة 3">
-    </div>
+    <div class="slide active"><img src="slid1.jpg" alt="شريحة 1"></div>
+    <div class="slide"><img src="slid2.jpg" alt="شريحة 2"></div>
+    <div class="slide"><img src="slid3.jpg" alt="شريحة 3"></div>
     <div class="hero-overlay"></div>
   </div>
-
-  <button class="hero-arrow prev" id="heroPrev" aria-label="السابق">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-  </button>
-  <button class="hero-arrow next" id="heroNext" aria-label="التالي">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-  </button>
-
+  <button class="hero-arrow prev" id="heroPrev" aria-label="السابق"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+  <button class="hero-arrow next" id="heroNext" aria-label="التالي"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
   <div class="container">
     <div class="hero-content">
       <span class="hero-badge">
@@ -506,9 +626,7 @@ video{display:block;max-width:100%}
         <i>· تحميل مباشر</i>
       </span>
       <h1>أداء صاروخي لإدارة أعمالك بضغطة زر</h1>
-      <p class="hero-sub">
-        انطلق بتجارتك مع نظام <strong>«سريع»</strong>، المبني على أحدث معمارية برمجية
-      </p>
+      <p class="hero-sub">انطلق بتجارتك مع نظام <strong>«سريع»</strong>، المبني على أحدث معمارية برمجية</p>
       <div class="hero-actions">
         <a href="https://github.com/getsaree/installsaree/releases/download/v1.5/installsaree.exe" class="btn btn-primary btn-lg" download>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
@@ -530,15 +648,12 @@ video{display:block;max-width:100%}
       </div>
     </div>
     <div class="hero-visual">
-      <div class="hero-square">
-        <img src="sora1.png" alt="نظام سريع لكاشير المحاسبي">
-      </div>
+      <div class="hero-square"><img src="sora1.png" alt="نظام سريع لكاشير المحاسبي"></div>
     </div>
   </div>
 </section>
 
-<section class="section section-parallax" id="audience"
-         style="background-image:url('so1.jpg')">
+<section class="section section-parallax" id="audience" style="background-image:url('so1.jpg')">
   <div class="container">
     <div class="sec-head reveal">
       <img src="logo.png" alt="أيقونة سريع" class="sec-icon">
@@ -547,46 +662,10 @@ video{display:block;max-width:100%}
       <p>مرونة لا حدود لها! سواء كنت تدير نشاطاً تجارياً كبيراً يمتلك فروعاً متعددة ويحتاج إلى معالجة آلاف العمليات اللحظية، أو تدير مشروعاً صغيراً يبحث عن البساطة، التنظيم، والسرعة في الإنجاز؛ فإن «سريع» هو شريك نجاحك الأمثل الذي يتمدد مع حجم أعمالك.</p>
     </div>
     <div class="audience-grid">
-      <article class="aud-card reveal d1">
-        <div class="aud-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 21V9l9-6 9 6v12"/><path d="M3 21h18"/><path d="M9 21v-6h6v6"/><path d="M9 10h.01M15 10h.01"/>
-          </svg>
-        </div>
-        <h3>السلاسل والفروع المتعددة</h3>
-        <p>معالجة آلاف العمليات اللحظية وربط جميع فروعك في منظومة واحدة متكاملة.</p>
-      </article>
-      <article class="aud-card reveal d2">
-        <div class="aud-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/>
-            <path d="M2.5 3h2.7l2.4 11.2a1.6 1.6 0 0 0 1.6 1.3h8.6a1.6 1.6 0 0 0 1.6-1.3L21.5 7H6"/>
-            <path d="M9 12h9"/>
-          </svg>
-        </div>
-        <h3>المتاجر والمحلات</h3>
-        <p>شاشة بيع فائقة السرعة مع بحث سريع وقارئ باركود لإتمام العملية في ثوانٍ.</p>
-      </article>
-      <article class="aud-card reveal d3">
-        <div class="aud-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 22V12"/><path d="M12 12c0-4.4 3.6-8 8-8 0 4.4-3.6 8-8 8z"/>
-            <path d="M12 14c0-3.3-2.7-6-6-6 0 3.3 2.7 6 6 6z"/><path d="M8 22h8"/>
-          </svg>
-        </div>
-        <h3>المشاريع الصغيرة والناشئة</h3>
-        <p>ابدأ ببساطة وتنظيم، وتمدد مع «سريع» خطوة بخطوة مع نمو أعمالك دون تعقيد.</p>
-      </article>
-      <article class="aud-card reveal d4">
-        <div class="aud-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 8 12 3 3 8l9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/>
-            <path d="M12 13v8"/><path d="M7.5 5.5 16.5 10"/>
-          </svg>
-        </div>
-        <h3>المستودعات ونقاط البيع</h3>
-        <p>مخزون دقيق، تقارير لحظية، وجرد سريع يمنحك سيطرة كاملة على حركة الأصناف.</p>
-      </article>
+      <article class="aud-card reveal d1"><div class="aud-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-6 9 6v12"/><path d="M3 21h18"/><path d="M9 21v-6h6v6"/><path d="M9 10h.01M15 10h.01"/></svg></div><h3>السلاسل والفروع المتعددة</h3><p>معالجة آلاف العمليات اللحظية وربط جميع فروعك في منظومة واحدة متكاملة.</p></article>
+      <article class="aud-card reveal d2"><div class="aud-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3h2.7l2.4 11.2a1.6 1.6 0 0 0 1.6 1.3h8.6a1.6 1.6 0 0 0 1.6-1.3L21.5 7H6"/><path d="M9 12h9"/></svg></div><h3>المتاجر والمحلات</h3><p>شاشة بيع فائقة السرعة مع بحث سريع وقارئ باركود لإتمام العملية في ثوانٍ.</p></article>
+      <article class="aud-card reveal d3"><div class="aud-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M12 12c0-4.4 3.6-8 8-8 0 4.4-3.6 8-8 8z"/><path d="M12 14c0-3.3-2.7-6-6-6 0 3.3 2.7 6 6 6z"/><path d="M8 22h8"/></svg></div><h3>المشاريع الصغيرة والناشئة</h3><p>ابدأ ببساطة وتنظيم، وتمدد مع «سريع» خطوة بخطوة مع نمو أعمالك دون تعقيد.</p></article>
+      <article class="aud-card reveal d4"><div class="aud-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8l9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/><path d="M7.5 5.5 16.5 10"/></svg></div><h3>المستودعات ونقاط البيع</h3><p>مخزون دقيق، تقارير لحظية، وجرد سريع يمنحك سيطرة كاملة على حركة الأصناف.</p></article>
     </div>
   </div>
 </section>
@@ -599,86 +678,27 @@ video{display:block;max-width:100%}
       <p>كل تفصيلة داخل النظام صُممت لتمنحك سرعة، استقراراً، وراحة في العمل اليومي.</p>
     </div>
     <div class="features-grid">
-      <article class="feature-card reveal d1">
-        <div class="f-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
-            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
-            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
-            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
-          </svg>
-        </div>
-        <h3>أداء صاروخي ولحظي</h3>
-        <p>سرعة استجابة فائقة وتنفيذ فوري للعمليات دون أي تأخير، لتوفير وقتك ووقت عملائك.</p>
-      </article>
-      <article class="feature-card reveal d2">
-        <div class="f-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2.5" y="4" width="19" height="12.5" rx="2"/>
-            <path d="M8 20.5h8"/><path d="M12 16.5v4"/>
-            <path d="M6 8h6"/><path d="M6 11.5h3"/>
-            <circle cx="17" cy="10" r="2"/>
-          </svg>
-        </div>
-        <h3>شاشة بيع وعروض أسعار بضغطة زر</h3>
-        <p>أسرع شاشة نقاط بيع (POS) تتيح لك عرض الأسعار وإتمام البيع فوراً عبر البحث السريع أو قارئ الباركود.</p>
-      </article>
-      <article class="feature-card reveal d3">
-        <div class="f-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-          </svg>
-        </div>
-        <h3>نظام مستقل وذاتي المعمارية</h3>
-        <p>يعتمد النظام على أدواته الذاتية بالكامل من استخراج التقارير الدقيقة ونظام العرض، مما يضمن استقراراً لا مثيل له.</p>
-      </article>
-      <article class="feature-card reveal d4">
-        <div class="f-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="4" width="14" height="11" rx="2"/>
-            <path d="M2 19h14"/>
-            <rect x="18" y="8" width="4" height="12" rx="1.5"/>
-            <path d="M18 20v1"/>
-          </svg>
-        </div>
-        <h3>يعمل على جميع الأجهزة</h3>
-        <p>لا حاجة لتحديث حواسيبك! «سريع» خفيف جداً ومتوافق كلياً ليعمل بأعلى كفاءة حتى على الأجهزة ذات الإمكانيات الضعيفة.</p>
-      </article>
-      <article class="feature-card reveal d5">
-        <div class="f-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-            <path d="m9 12 2 2 4-4"/>
-          </svg>
-        </div>
-        <h3>قاعدة بيانات فولاذية الآمان</h3>
-        <p>بياناتك في أمان تام. قاعدة بيانات ثابتة ومستقرة تحمي معلوماتك حتى في حال حدوث أي انهيار مفاجئ بنظام الويندوز.</p>
-      </article>
-      <article class="feature-card reveal d5">
-        <div class="f-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="3" width="18" height="18" rx="3"/>
-            <path d="M3 9h18"/><path d="M9 21V9"/>
-            <circle cx="15.5" cy="15" r="1.5"/>
-          </svg>
-        </div>
-        <h3>واجهة مستخدم (UI) استثنائية</h3>
-        <p>تصميم عصري، بسيط، ومريح للعين، يتيح لأي مستخدم إتقان العمل على البرنامج في دقائق معدودة.</p>
-      </article>
+      <article class="feature-card reveal d1"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div><h3>أداء صاروخي ولحظي</h3><p>سرعة استجابة فائقة وتنفيذ فوري للعمليات دون أي تأخير، لتوفير وقتك ووقت عملائك.</p></article>
+      <article class="feature-card reveal d2"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="12.5" rx="2"/><path d="M8 20.5h8"/><path d="M12 16.5v4"/><path d="M6 8h6"/><path d="M6 11.5h3"/><circle cx="17" cy="10" r="2"/></svg></div><h3>شاشة بيع وعروض أسعار بضغطة زر</h3><p>أسرع شاشة نقاط بيع (POS) تتيح لك عرض الأسعار وإتمام البيع فوراً عبر البحث السريع أو قارئ الباركود.</p></article>
+      <article class="feature-card reveal d3"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div><h3>نظام مستقل وذاتي المعمارية</h3><p>يعتمد النظام على أدواته الذاتية بالكامل من استخراج التقارير الدقيقة ونظام العرض، مما يضمن استقراراً لا مثيل له.</p></article>
+      <article class="feature-card reveal d4"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="14" height="11" rx="2"/><path d="M2 19h14"/><rect x="18" y="8" width="4" height="12" rx="1.5"/><path d="M18 20v1"/></svg></div><h3>يعمل على جميع الأجهزة</h3><p>لا حاجة لتحديث حواسيبك! «سريع» خفيف جداً ومتوافق كلياً ليعمل بأعلى كفاءة حتى على الأجهزة ذات الإمكانيات الضعيفة.</p></article>
+      <article class="feature-card reveal d5"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>قاعدة بيانات فولاذية الآمان</h3><p>بياناتك في أمان تام. قاعدة بيانات ثابتة ومستقرة تحمي معلوماتك حتى في حال حدوث أي انهيار مفاجئ بنظام الويندوز.</p></article>
+      <article class="feature-card reveal d5"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18"/><path d="M9 21V9"/><circle cx="15.5" cy="15" r="1.5"/></svg></div><h3>واجهة مستخدم (UI) استثنائية</h3><p>تصميم عصري، بسيط، ومريح للعين، يتيح لأي مستخدم إتقان العمل على البرنامج في دقائق معدودة.</p></article>
     </div>
 
     <div class="video-wrap reveal">
-      <div class="video-head">
-        <img src="logo.png" alt="أيقونة سريع">
+      <div class="video-head"><img src="logo.png" alt="أيقونة سريع"></div>
+      <div class="video-frame">
+        <video id="promoVideo" autoplay muted loop playsinline preload="auto" poster="og.png" disablePictureInPicture controlsList="nodownload nofullscreen noremoteplayback noplaybackrate" oncontextmenu="return false;">
+          <source src="vid.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" aria-hidden="true"></div>
       </div>
-      <video src="vid.mp4" controls playsinline preload="metadata" poster="og.png"></video>
     </div>
   </div>
 </section>
 
-<section class="section section-parallax" id="learn"
-         style="background-image:url('so2.jpg')">
+<section class="section section-parallax" id="learn" style="background-image:url('so2.jpg')">
   <div class="container">
     <div class="sec-head reveal">
       <span class="eyebrow">تعلم · جولة داخل النظام</span>
@@ -712,12 +732,7 @@ video{display:block;max-width:100%}
         <p class="plan-sub">7 أيام مجاناً</p>
         <div class="price"><span class="amount">0</span><span class="cur">جنيه مصري</span></div>
         <p class="per">لمدة 7 أيام كاملة</p>
-        <ul class="price-list">
-          <li>تجربة سريع 7 أيام مجانية بالكامل</li>
-          <li>جميع مزايا النظام مفتوحة بدون قيود</li>
-          <li>استكشف شاشة البيع، التقارير، والمخزون</li>
-          <li>دعم فني للإجابة على استفساراتك</li>
-        </ul>
+        <ul class="price-list"><li>تجربة سريع 7 أيام مجانية بالكامل</li><li>جميع مزايا النظام مفتوحة بدون قيود</li><li>استكشف شاشة البيع، التقارير، والمخزون</li><li>دعم فني للإجابة على استفساراتك</li></ul>
         <a href="https://github.com/getsaree/installsaree/releases/download/v1.5/installsaree.exe" class="btn btn-green btn-block" download>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
           ابدأ التجربة المجانية
@@ -728,12 +743,7 @@ video{display:block;max-width:100%}
         <p class="plan-sub">المرونة</p>
         <div class="price"><span class="amount">100</span><span class="cur">جنيه مصري</span></div>
         <p class="per">شهرياً / لكل ترخيص</p>
-        <ul class="price-list">
-          <li>ترخيص لجهاز واحد</li>
-          <li>تُجدد شهرياً</li>
-          <li>دعم فني مجاني</li>
-          <li>تحديثات البرنامج مجاناً</li>
-        </ul>
+        <ul class="price-list"><li>ترخيص لجهاز واحد</li><li>تُجدد شهرياً</li><li>دعم فني مجاني</li><li>تحديثات البرنامج مجاناً</li></ul>
         <a href="#support" class="btn btn-outline btn-block">اشترك الآن</a>
       </article>
       <article class="price-card featured reveal d2">
@@ -742,12 +752,7 @@ video{display:block;max-width:100%}
         <p class="plan-sub">التوفير</p>
         <div class="price"><span class="amount">1,000</span><span class="cur">جنيه مصري</span></div>
         <p class="per">سنوياً / لكل ترخيص</p>
-        <ul class="price-list">
-          <li>ترخيص لجهاز واحد</li>
-          <li>تُجدد سنوياً (وفر قيمة شهرين!)</li>
-          <li>دعم فني مجاني</li>
-          <li>تحديثات البرنامج مجاناً</li>
-        </ul>
+        <ul class="price-list"><li>ترخيص لجهاز واحد</li><li>تُجدد سنوياً (وفر قيمة شهرين!)</li><li>دعم فني مجاني</li><li>تحديثات البرنامج مجاناً</li></ul>
         <a href="#support" class="btn btn-primary btn-block">اشترك الآن</a>
       </article>
       <article class="price-card reveal d3">
@@ -755,11 +760,7 @@ video{display:block;max-width:100%}
         <p class="plan-sub">شراء البرنامج</p>
         <div class="price"><span class="amount">3,000</span><span class="cur">جنيه مصري</span></div>
         <p class="per">لكل ترخيص / جهاز واحد</p>
-        <ul class="price-list">
-          <li>السداد مرة واحدة، لا يوجد تجديد إلزامي!</li>
-          <li>دعم فني مجاني لمدة عامين</li>
-          <li>تحديثات البرنامج مجاناً لمدة عامين</li>
-        </ul>
+        <ul class="price-list"><li>السداد مرة واحدة، لا يوجد تجديد إلزامي!</li><li>دعم فني مجاني لمدة عامين</li><li>تحديثات البرنامج مجاناً لمدة عامين</li></ul>
         <p class="price-note">تكلفة الدعم الفني وتحديث البرنامج بعد عامين 250 جنيهاً مصرياً سنوياً فقط (اختياري).</p>
         <a href="#support" class="btn btn-outline btn-block">شراء البرنامج الآن</a>
       </article>
@@ -768,11 +769,7 @@ video{display:block;max-width:100%}
         <p class="plan-sub">التخصيص الشامل</p>
         <div class="price"><span class="amount">5,000</span><span class="cur">جنيه مصري</span></div>
         <p class="per">رخصة دائمة (مدى الحياة)</p>
-        <ul class="price-list">
-          <li>نُخصص الشاشات بناءً على أفكارك واختياراتك!</li>
-          <li>أي ميزة تخطر ببالك لتطوير عملك يتم برمجتها وإضافتها لك.</li>
-          <li>الباقة تشمل 4 تغييرات جذرية بالنظام ليتوافق 100% مع احتياجاتك.</li>
-        </ul>
+        <ul class="price-list"><li>نُخصص الشاشات بناءً على أفكارك واختياراتك!</li><li>أي ميزة تخطر ببالك لتطوير عملك يتم برمجتها وإضافتها لك.</li><li>الباقة تشمل 4 تغييرات جذرية بالنظام ليتوافق 100% مع احتياجاتك.</li></ul>
         <a href="#support" class="btn btn-primary btn-block">اطلب نسختك الخاصة</a>
       </article>
     </div>
@@ -807,91 +804,44 @@ video{display:block;max-width:100%}
         <h2>ثبّت «سريع» في <span>4 خطوات سهلة</span></h2>
         <p>اتبع الصور التالية بالترتيب لتثبيت البرنامج على جهازك خلال دقائق معدودة، بدون أي خبرة تقنية.</p>
       </div>
-
       <div class="install-steps">
-
         <article class="step-card reveal d1">
           <span class="step-num">1</span>
-          <div class="step-img">
-            <img src="sp1.png" alt="خطوة 1 - اضغط على أيقونة التحميل" loading="lazy">
-          </div>
+          <div class="step-img"><img src="sp1.png" alt="خطوة 1" loading="lazy"></div>
           <h3>اضغط على أيقونة التحميل</h3>
-          <p>
-            اضغط على زر <strong>«تحميل النسخة (exe)»</strong> بالأعلى لتنزيل ملف التثبيت
-            <strong>installsaree.exe</strong> على جهازك.
-            انتظر حتى يكتمل التنزيل ثم افتح الملف بالنقر المزدوج عليه.
-          </p>
-          <span class="step-hint">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
-            حمّل ملف installsaree.exe
-          </span>
+          <p>اضغط على زر <strong>«تحميل النسخة (exe)»</strong> بالأعلى لتنزيل ملف التثبيت <strong>installsaree.exe</strong> على جهازك. انتظر حتى يكتمل التنزيل ثم افتح الملف بالنقر المزدوج عليه.</p>
+          <span class="step-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>حمّل ملف installsaree.exe</span>
         </article>
-
         <article class="step-card reveal d2">
           <span class="step-num">2</span>
-          <div class="step-img">
-            <img src="sp2.png" alt="خطوة 2 - اضغط Next للبدء" loading="lazy">
-          </div>
+          <div class="step-img"><img src="sp2.png" alt="خطوة 2" loading="lazy"></div>
           <h3>اضغط <em>Next</em> للبدء</h3>
-          <p>
-            ستظهر لك نافذة الترحيب ببرنامج التثبيت.
-            اضغط على زر <strong>Next</strong> للمتابعة إلى الشاشة التالية.
-            لا تحتاج إلى تغيير أي إعداد في هذه المرحلة.
-          </p>
-          <span class="step-hint">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            اضغط Next
-          </span>
+          <p>ستظهر لك نافذة الترحيب ببرنامج التثبيت. اضغط على زر <strong>Next</strong> للمتابعة إلى الشاشة التالية. لا تحتاج إلى تغيير أي إعداد في هذه المرحلة.</p>
+          <span class="step-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>اضغط Next</span>
         </article>
-
         <article class="step-card reveal d3">
           <span class="step-num">3</span>
-          <div class="step-img">
-            <img src="sp3.png" alt="خطوة 3 - اضغط Next مرة أخرى" loading="lazy">
-          </div>
+          <div class="step-img"><img src="sp3.png" alt="خطوة 3" loading="lazy"></div>
           <h3>اضغط <em>Next</em> مرة أخرى</h3>
-          <p>
-            في شاشة اختيار مجلد التثبيت أو التأكيدات الإضافية،
-            استمر بالضغط على <strong>Next</strong> حتى تصل إلى شاشة بدء التثبيت الفعلي.
-            ثم اضغط <strong>Install</strong> لبدء عملية التثبيت.
-          </p>
-          <span class="step-hint">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            استمر بالضغط على Next
-          </span>
+          <p>في شاشة اختيار مجلد التثبيت أو التأكيدات الإضافية، استمر بالضغط على <strong>Next</strong> حتى تصل إلى شاشة بدء التثبيت الفعلي. ثم اضغط <strong>Install</strong> لبدء عملية التثبيت.</p>
+          <span class="step-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>استمر بالضغط على Next</span>
         </article>
-
         <article class="step-card reveal d4">
           <span class="step-num">4</span>
-          <div class="step-img">
-            <img src="sp4.png" alt="خطوة 4 - اضغط Finish لإكمال التثبيت" loading="lazy">
-          </div>
+          <div class="step-img"><img src="sp4.png" alt="خطوة 4" loading="lazy"></div>
           <h3>اضغط <em>Finish</em> وابدأ التشغيل</h3>
-          <p>
-            انتظر بضع ثوانٍ حتى ينتهي التثبيت، ثم اضغط
-            <strong>Finish</strong>.
-            مبروك! يمكنك الآن تشغيل «سريع» من اختصار سطح المكتب
-            والدخول ببيانات التجربة: <strong>admin</strong> / <strong>admin123</strong>.
-          </p>
-          <span class="step-hint">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
-            التثبيت اكتمل بنجاح
-          </span>
+          <p>انتظر بضع ثوانٍ حتى ينتهي التثبيت، ثم اضغط <strong>Finish</strong>. مبروك! يمكنك الآن تشغيل «سريع» من اختصار سطح المكتب والدخول ببيانات التجربة: <strong>admin</strong> / <strong>admin123</strong>.</p>
+          <span class="step-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>التثبيت اكتمل بنجاح</span>
         </article>
-
       </div>
 
       <div class="install-note reveal">
         <img src="logo.png" alt="أيقونة سريع">
         <div>
           <h4>نصيحة سريعة</h4>
-          <p>
-            إذا واجهت أي مشكلة أثناء التثبيت، تواصل مع فريق الدعم الفني مباشرة على الرقم
-            <strong>01142493701</strong> وسيقومون بمساعدتك خطوة بخطوة حتى يعمل البرنامج بنجاح.
-          </p>
+          <p>إذا واجهت أي مشكلة أثناء التثبيت، تواصل مع فريق الدعم الفني مباشرة على الرقم <strong>01142493701</strong> وسيقومون بمساعدتك خطوة بخطوة حتى يعمل البرنامج بنجاح.</p>
         </div>
       </div>
-
     </div>
 
     <div class="trial-card reveal">
@@ -908,8 +858,7 @@ video{display:block;max-width:100%}
   </div>
 </section>
 
-<section class="section section-parallax" id="support"
-         style="background-image:url('so3.jpg')">
+<section class="section section-parallax" id="support" style="background-image:url('so3.jpg')">
   <div class="container">
     <div class="sec-head reveal">
       <span class="eyebrow">الدعم الفني</span>
@@ -917,37 +866,9 @@ video{display:block;max-width:100%}
       <p>لأن استمرارية عملك هي أولويتنا، وفرنا لك فريق دعم فني احترافي متاح طوال الوقت (على مدار الساعة) للرد على استفساراتك وحل أي عقبة تقنية قد تواجهك في لمح البصر.</p>
     </div>
     <div class="support-grid">
-      <article class="support-card reveal d1">
-        <div class="support-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>
-          </svg>
-        </div>
-        <h3>اتصال مباشر</h3>
-        <p>تحدث مع مهندس الدعم الفني فوراً خلال ساعات العمل.</p>
-        <a class="support-link" href="tel:+201142493701">01142493701</a>
-      </article>
-      <article class="support-card reveal d2">
-        <div class="support-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.9 8.9 0 0 1-3.8-.8L3 21l1.9-5a8.4 8.4 0 0 1-.9-4 8.4 8.4 0 0 1 9-8.4 8.4 8.4 0 0 1 8 7.9z"/>
-            <path d="M8.5 10.5c.4 1 1 1.8 1.9 2.4"/>
-          </svg>
-        </div>
-        <h3>واتساب الدعم</h3>
-        <p>أرسل رسالتك أو صورتك وسيتم الرد عليك في أسرع وقت.</p>
-        <a class="support-link" href="https://wa.me/201142493701" target="_blank" rel="noopener">01142493701</a>
-      </article>
-      <article class="support-card reveal d3">
-        <div class="support-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/>
-          </svg>
-        </div>
-        <h3>دعم على مدار الساعة</h3>
-        <p>فريقنا متاح 24/7 لضمان استمرارية عملك دون توقف.</p>
-        <span class="support-link" style="cursor:default">24 / 7</span>
-      </article>
+      <article class="support-card reveal d1"><div class="support-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div><h3>اتصال مباشر</h3><p>تحدث مع مهندس الدعم الفني فوراً خلال ساعات العمل.</p><a class="support-link" href="tel:+201142493701">01142493701</a></article>
+      <article class="support-card reveal d2"><div class="support-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.9 8.9 0 0 1-3.8-.8L3 21l1.9-5a8.4 8.4 0 0 1-.9-4 8.4 8.4 0 0 1 9-8.4 8.4 8.4 0 0 1 8 7.9z"/><path d="M8.5 10.5c.4 1 1 1.8 1.9 2.4"/></svg></div><h3>واتساب الدعم</h3><p>أرسل رسالتك أو صورتك وسيتم الرد عليك في أسرع وقت.</p><a class="support-link" href="https://wa.me/201142493701" target="_blank" rel="noopener">01142493701</a></article>
+      <article class="support-card reveal d3"><div class="support-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div><h3>دعم على مدار الساعة</h3><p>فريقنا متاح 24/7 لضمان استمرارية عملك دون توقف.</p><span class="support-link" style="cursor:default">24 / 7</span></article>
     </div>
   </div>
 </section>
@@ -963,12 +884,7 @@ video{display:block;max-width:100%}
       <div class="dealers-text">
         <h3>كن <span>موزعاً معتمداً</span> لنظام «سريع»</h3>
         <p>نوفر لك كل ما تحتاجه للبدء فوراً: نسخ تجريبية، مواد تسويقية، تدريب فني، وأسعار خاصة للموزعين.</p>
-        <ul class="dealers-list">
-          <li>أسعار خاصة وهامش ربح مجزٍ</li>
-          <li>تدريب فني وتسويقي كامل</li>
-          <li>أولوية في الدعم الفني لعملائك</li>
-          <li>تغطية جميع محافظات مصر</li>
-        </ul>
+        <ul class="dealers-list"><li>أسعار خاصة وهامش ربح مجزٍ</li><li>تدريب فني وتسويقي كامل</li><li>أولوية في الدعم الفني لعملائك</li><li>تغطية جميع محافظات مصر</li></ul>
       </div>
       <div class="dealers-visual">
         <img src="logo.png" alt="أيقونة نظام سريع">
@@ -1004,13 +920,7 @@ video{display:block;max-width:100%}
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <div class="footer-brand">
-          <img src="logo.png" alt="شعار نظام سريع">
-          <div>
-            <strong>سريع</strong>
-            <small>نظام كاشير محاسبي احترافي</small>
-          </div>
-        </div>
+        <div class="footer-brand"><img src="logo.png" alt="شعار نظام سريع"><div><strong>سريع</strong><small>نظام كاشير محاسبي احترافي</small></div></div>
         <p>نظام كاشير محاسبي متكامل مبني على أحدث معمارية برمجية، يمنحك أداءً صاروخياً، تقارير دقيقة، وقاعدة بيانات فولاذية الآمان.. ويعمل بكفاءة على جميع الأجهزة.</p>
       </div>
       <div class="footer-col">
@@ -1062,6 +972,42 @@ video{display:block;max-width:100%}
   </svg>
 </a>
 
+<!-- ==========================================================
+     محادثة سريع الذكية - Floating Chat Widget
+========================================================== -->
+<button class="chat-float" id="chatToggle" aria-label="محادثة سريع الذكية">
+  <span class="chat-tip">محادثة سريع الذكية</span>
+  <span class="chat-badge">1</span>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+  </svg>
+</button>
+
+<div class="chat-window" id="chatWindow" role="dialog" aria-label="محادثة سريع الذكية">
+  <div class="chat-header">
+    <div class="chat-header-info">
+      <img src="logo.png" alt="سريع">
+      <div>
+        <strong>محادثة سريع الذكية</strong>
+        <small><span class="online-dot"></span> متصل الآن · يرد فوراً</small>
+      </div>
+    </div>
+    <button class="chat-close" id="chatClose" aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+  </div>
+
+  <div class="chat-body" id="chatBody"></div>
+  <div class="chat-quick" id="chatQuick"></div>
+
+  <form class="chat-input" id="chatForm">
+    <input type="text" id="chatInput" placeholder="اكتب سؤالك هنا..." autocomplete="off">
+    <button type="submit" aria-label="إرسال">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+    </button>
+  </form>
+</div>
+
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة">
   <button class="lightbox-close" id="lightboxClose" aria-label="إغلاق">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
@@ -1070,19 +1016,16 @@ video{display:block;max-width:100%}
 </div>
 
 <script>
+/* ==========================================================
+   معالجة الصور
+========================================================== */
 const FALLBACK_SVG = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-    <defs>
-      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#eff6ff"/>
-        <stop offset="1" stop-color="#dbeafe"/>
-      </linearGradient>
-    </defs>
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eff6ff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient></defs>
     <rect width="400" height="300" fill="url(#g)"/>
     <text x="50%" y="50%" fill="#2563eb" font-family="Alexandria, sans-serif" font-size="34" font-weight="800" text-anchor="middle" dominant-baseline="middle">سريع</text>
   </svg>`
 );
-
 const EXTENSIONS = ['png','jpg','jpeg','webp','PNG','JPG','JPEG','WEBP'];
 
 function bindImageFallback(img){
@@ -1101,25 +1044,72 @@ function bindImageFallback(img){
   const base = baseMatch[1];
   let extIndex = EXTENSIONS.indexOf(baseMatch[2]);
   if (extIndex === -1) extIndex = 0;
-
   img.addEventListener('error', function handler(){
     extIndex++;
-    if (extIndex < EXTENSIONS.length){
-      img.src = base + '.' + EXTENSIONS[extIndex];
-      return;
-    }
+    if (extIndex < EXTENSIONS.length){ img.src = base + '.' + EXTENSIONS[extIndex]; return; }
     this.removeEventListener('error', handler);
     if (this.dataset.fallbackApplied) return;
     this.dataset.fallbackApplied = '1';
     this.src = FALLBACK_SVG;
   });
 }
-
 document.querySelectorAll('img').forEach(bindImageFallback);
 
+/* ==========================================================
+   تشغيل الفيديو
+========================================================== */
+const promoVideo = document.getElementById('promoVideo');
+if (promoVideo){
+  promoVideo.removeAttribute('controls');
+  promoVideo.controls = false;
+  promoVideo.muted = true;
+  promoVideo.loop = true;
+  promoVideo.autoplay = true;
+  promoVideo.playsInline = true;
+
+  const tryPlay = () => {
+    const p = promoVideo.play();
+    if (p && typeof p.catch === 'function'){
+      p.catch(() => {
+        const retry = () => {
+          promoVideo.play().catch(()=>{});
+          document.removeEventListener('click', retry);
+          document.removeEventListener('touchstart', retry);
+          document.removeEventListener('scroll', retry);
+        };
+        document.addEventListener('click', retry, {once:true, passive:true});
+        document.addEventListener('touchstart', retry, {once:true, passive:true});
+        document.addEventListener('scroll', retry, {once:true, passive:true});
+      });
+    }
+  };
+  tryPlay();
+
+  promoVideo.addEventListener('pause', () => {
+    setTimeout(() => { if (promoVideo.paused) promoVideo.play().catch(()=>{}); }, 80);
+  });
+  promoVideo.addEventListener('ended', () => {
+    promoVideo.currentTime = 0;
+    promoVideo.play().catch(()=>{});
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden && promoVideo.paused) promoVideo.play().catch(()=>{});
+  });
+  window.addEventListener('pageshow', () => {
+    if (promoVideo.paused) promoVideo.play().catch(()=>{});
+  });
+  promoVideo.addEventListener('error', () => {
+    promoVideo.style.display = 'none';
+    const fallback = document.querySelector('.video-fallback');
+    if (fallback) fallback.style.display = 'flex';
+  });
+}
+
+/* ==========================================================
+   الهيدر + زر العودة
+========================================================== */
 const header = document.getElementById('header');
 const toTop  = document.getElementById('toTop');
-
 function onScroll(){
   const y = window.scrollY;
   header.classList.toggle('scrolled', y > 20);
@@ -1129,15 +1119,16 @@ window.addEventListener('scroll', onScroll, {passive:true});
 onScroll();
 toTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
 
+/* ==========================================================
+   قائمة الهاتف
+========================================================== */
 const menuToggle = document.getElementById('menuToggle');
 const nav        = document.getElementById('nav');
-
 menuToggle.addEventListener('click', () => {
   const open = nav.classList.toggle('open');
   menuToggle.classList.toggle('active', open);
   menuToggle.setAttribute('aria-expanded', open);
 });
-
 nav.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     nav.classList.remove('open');
@@ -1146,11 +1137,13 @@ nav.querySelectorAll('a').forEach(link => {
   });
 });
 
+/* ==========================================================
+   السلايدر
+========================================================== */
 const slides = Array.from(document.querySelectorAll('.slide'));
 const dots   = Array.from(document.querySelectorAll('#heroDots button'));
 let current  = 0;
 let timer    = null;
-
 function goTo(index){
   slides[current].classList.remove('active');
   dots[current].classList.remove('active');
@@ -1162,36 +1155,33 @@ function startAuto(){
   clearInterval(timer);
   timer = setInterval(() => goTo(current + 1), 5500);
 }
-dots.forEach((dot, i) => {
-  dot.addEventListener('click', () => { goTo(i); startAuto(); });
-});
+dots.forEach((dot, i) => { dot.addEventListener('click', () => { goTo(i); startAuto(); }); });
 document.getElementById('heroPrev').addEventListener('click', () => { goTo(current - 1); startAuto(); });
 document.getElementById('heroNext').addEventListener('click', () => { goTo(current + 1); startAuto(); });
-document.addEventListener('visibilitychange', () => {
-  if (document.hidden){ clearInterval(timer); } else { startAuto(); }
-});
+document.addEventListener('visibilitychange', () => { if (document.hidden){ clearInterval(timer); } else { startAuto(); } });
 startAuto();
 
+/* ==========================================================
+   أنيميشن الظهور
+========================================================== */
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
-    if (entry.isIntersecting){
-      entry.target.classList.add('in');
-      revealObserver.unobserve(entry.target);
-    }
+    if (entry.isIntersecting){ entry.target.classList.add('in'); revealObserver.unobserve(entry.target); }
   });
 }, {threshold:0.12, rootMargin:'0px 0px -60px 0px'});
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
+/* ==========================================================
+   Lightbox
+========================================================== */
 const lightbox    = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
-
 function openLightbox(src, alt){
   lightboxImg.src = src;
   lightboxImg.alt = alt || 'صورة من داخل النظام';
   lightbox.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
-
 document.querySelectorAll('#shotsGrid .shot').forEach(shot => {
   shot.addEventListener('click', () => {
     const img = shot.querySelector('img');
@@ -1199,7 +1189,6 @@ document.querySelectorAll('#shotsGrid .shot').forEach(shot => {
     openLightbox(img.src, img.alt);
   });
 });
-
 document.querySelectorAll('.step-img').forEach(box => {
   box.addEventListener('click', () => {
     const img = box.querySelector('img');
@@ -1207,19 +1196,16 @@ document.querySelectorAll('.step-img').forEach(box => {
     openLightbox(img.src, img.alt);
   });
 });
-
-function closeLightbox(){
-  lightbox.classList.remove('open');
-  document.body.style.overflow = '';
-}
+function closeLightbox(){ lightbox.classList.remove('open'); document.body.style.overflow = ''; }
 document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
 lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
 
+/* ==========================================================
+   Scroll Spy
+========================================================== */
 const navLinks = Array.from(document.querySelectorAll('.nav-link'));
-const sections = navLinks
-  .map(link => document.querySelector(link.getAttribute('href')))
-  .filter(Boolean);
+const sections = navLinks.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
 const spyObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting){
@@ -1230,6 +1216,203 @@ const spyObserver = new IntersectionObserver((entries) => {
   });
 }, {threshold:0.35, rootMargin:'-80px 0px -55% 0px'});
 sections.forEach(sec => spyObserver.observe(sec));
+
+/* ==========================================================
+   محادثة سريع الذكية
+========================================================== */
+(function(){
+  const chatToggle = document.getElementById('chatToggle');
+  const chatWindow = document.getElementById('chatWindow');
+  const chatClose  = document.getElementById('chatClose');
+  const chatBody   = document.getElementById('chatBody');
+  const chatQuick  = document.getElementById('chatQuick');
+  const chatForm   = document.getElementById('chatForm');
+  const chatInput  = document.getElementById('chatInput');
+  const chatBadge  = document.querySelector('.chat-badge');
+
+  let userMsgCount = 0;
+  let chatInitialized = false;
+  const MAX_FREE = 5;
+
+  const KB = [
+    { keys:['سعر','اسعار','أسعار','باقة','باقات','تكلفة','كام','كم سعر','فلوس','اشتراك','شراء'],
+      reply:`باقات «سريع» مصممة لتناسب الجميع 💙\n\n• تجربة 7 أيام مجاناً بالكامل\n• الشهرية: 100 ج.م / جهاز\n• السنوية: 1,000 ج.م / جهاز (وفر شهرين)\n• مدى الحياة: 3,000 ج.م / جهاز\n• نظام على مزاجك: 5,000 ج.م (تخصيص كامل)\n\nللتفاصيل الكاملة انتقل لقسم «الأسعار» بالصفحة.` },
+    { keys:['تحميل','تنزيل','رابط','احمل','انزل','download'],
+      reply:`حمّل النسخة مباشرة من الرابط:\nhttps://github.com/getsaree/installsaree/releases/download/v1.5/installsaree.exe\n\n📥 أو اضغط زر «تحميل النسخة (exe)» أعلى الصفحة.` },
+    { keys:['تثبيت','install','تنصيب','setup'],
+      reply:`التثبيت سهل جداً في 4 خطوات 📝\n\n1️⃣ حمّل ملف installsaree.exe\n2️⃣ شغّله واضغط Next\n3️⃣ استمر في Next ثم Install\n4️⃣ اضغط Finish وابدأ التشغيل\n\n📸 يوجد شرح مصور كامل في قسم «دليل التثبيت» بالصفحة.` },
+    { keys:['مميزات','ميزات','خصائص','features'],
+      reply:`أهم مميزات «سريع» ✨\n\n🚀 أداء صاروخي ولحظي\n🖥️ شاشة بيع فورية + قارئ باركود\n⚙️ نظام مستقل وذاتي المعمارية\n💻 يعمل على جميع الأجهزة حتى الضعيفة\n🛡️ قاعدة بيانات فولاذية الآمان\n🎨 واجهة UI استثنائية وسهلة` },
+    { keys:['شاشة','شاشات','صور','screens','لقطات','جولة'],
+      reply:`توجد جولة كاملة بالصور داخل قسم «تعلم» في الصفحة، تعرض 7 شاشات من داخل النظام (البيع، المخزون، التقارير، الفواتير... إلخ).\n\n👀 اضغط على أي صورة لعرضها بالحجم الكامل.` },
+    { keys:['تجربة','تجريب','مجان','free','trial'],
+      reply:`✅ نعم! تجربة «سريع» متاحة مجاناً بالكامل لمدة 7 أيام بدون أي قيود.\n\nبيانات الدخول التجريبية:\n👤 المستخدم: admin\n🔑 كلمة المرور: admin123\n\nحمّل النسخة وابدأ فوراً!` },
+    { keys:['يوزر','مستخدم','باسورد','كلمة المرور','password','user','دخول','login','تسجيل'],
+      reply:`بيانات الدخول التجريبية لنظام «سريع»:\n\n👤 اسم المستخدم: admin\n🔑 كلمة المرور: admin123\n\nيمكنك تغييرها لاحقاً من إعدادات النظام.` },
+    { keys:['دعم','مساعدة','مشكلة','support','help','مساعده'],
+      reply:`فريق الدعم الفني متاح لخدمتك على مدار الساعة 🛠️\n\n📞 اتصال مباشر: 01142493701\n💬 واتساب: 01142493701\n\nيمكنك التواصل في أي وقت لحل أي استفسار.` },
+    { keys:['موزع','موزعين','توزيع','dealer','وكيل'],
+      reply:`للانضمام كموزّع معتمد لنظام «سريع» 🏪\n\nنوفر لك:\n✅ أسعار خاصة وهامش ربح مجزٍ\n✅ تدريب فني وتسويقي كامل\n✅ أولوية في الدعم الفني لعملائك\n✅ تغطية جميع محافظات مصر\n\nتواصل معنا: 01142493701` },
+    { keys:['اجهزة','أجهزة','جهاز','كمبيوتر','موبايل','هاتف','ويندوز','windows'],
+      reply:`«سريع» يعمل بكفاءة عالية على: 💻\n\n• جميع إصدارات ويندوز (حتى القديمة)\n• الأجهزة الضعيفة الإمكانيات\n• لا يحتاج تحديث للهاردوير\n\nخفيف جداً ومتوافق كلياً مع كل الأجهزة.` },
+    { keys:['قاعدة','بيانات','database','امان','أمان','حماية'],
+      reply:`قاعدة بيانات «سريع» فولاذية الآمان 🛡️\n\n• ثابتة ومستقرة تماماً\n• تحمي بياناتك حتى في حال انهيار الويندوز\n• نسخ احتياطي تلقائي\n• لا تفقد أي معلومة أبداً` },
+    { keys:['فاتورة','فواتير','تقارير','تقرير','invoice','report'],
+      reply:`«سريع» يوفر نظام فواتير وتقارير متكامل 📊\n\n• فواتير بيع فورية\n• تقارير مبيعات لحظية\n• تقارير مخزون دقيقة\n• تقارير أرباح وخسائر\n\nكل شيء بضغطة زر!` },
+    { keys:['مخزون','جرد','اصناف','أصناف','stock'],
+      reply:`إدارة المخزون في «سريع» 📦\n\n• جرد فوري وسريع\n• تتبع حركة الأصناف\n• تنبيهات نقص المخزون\n• تقارير دقيقة للمخزون\n• دعم قارئ الباركود` },
+    { keys:['باركود','barcode','قارئ'],
+      reply:`نعم! «سريع» يدعم قارئ الباركود بشكل كامل 🔍\n\n• قراءة فورية للأصناف\n• إتمام البيع بضغطة زر\n• بحث سريع عن المنتجات\n• متوافق مع جميع أنواع قارئات الباركود` },
+    { keys:['تحديث','تحديثات','update'],
+      reply:`التحديثات مجانية بالكامل ✅\n\n• شهرياً: تحديثات مجانية\n• سنوياً: تحديثات مجانية\n• مدى الحياة: تحديثات مجانية لمدة عامين\n\nنحرص دائماً على تقديم أحدث المزايا.` },
+    { keys:['شكرا','شكراً','thanks','thank'],
+      reply:`على الرحب والسعة عملينا العزيز 💙\n\nنحن هنا لخدمتك في أي وقت. هل تحتاج مساعدة أخرى؟` },
+    { keys:['مرحبا','السلام','اهلا','أهلا','هاي','hello','hi'],
+      reply:`أهلاً وسهلاً بك 🌟\n\nكيف يمكنني مساعدتك اليوم؟ اختر من الأزرار أدناه أو اكتب سؤالك بحرية.` }
+  ];
+
+  const quickOptions = [
+    { label:'💰 الأسعار والباقات', value:'الأسعار والباقات' },
+    { label:'📥 تحميل البرنامج', value:'تحميل' },
+    { label:'📝 خطوات التثبيت', value:'تثبيت' },
+    { label:'✨ مميزات النظام', value:'مميزات' },
+    { label:'🎁 تجربة مجانية', value:'تجربة مجانية' },
+    { label:'🖥️ شاشات النظام', value:'شاشات' },
+    { label:'🔑 بيانات الدخول', value:'بيانات الدخول' },
+    { label:'📞 الدعم الفني', value:'دعم فني' }
+  ];
+
+  function escapeHtml(str){
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function linkify(text){
+    return escapeHtml(text).replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+  }
+
+  function addMessage(text, sender){
+    const div = document.createElement('div');
+    div.className = 'msg ' + sender;
+    if (sender === 'bot'){
+      div.innerHTML = `<img src="logo.png" alt="سريع" class="avatar"><div class="bubble">${linkify(text)}</div>`;
+    } else {
+      div.innerHTML = `<div class="bubble">${escapeHtml(text)}</div>`;
+    }
+    chatBody.appendChild(div);
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+
+  function showTyping(){
+    const div = document.createElement('div');
+    div.className = 'msg bot';
+    div.id = 'typingIndicator';
+    div.innerHTML = `<img src="logo.png" alt="سريع" class="avatar"><div class="typing"><span></span><span></span><span></span></div>`;
+    chatBody.appendChild(div);
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+  function hideTyping(){
+    const t = document.getElementById('typingIndicator');
+    if (t) t.remove();
+  }
+
+  function findAnswer(question){
+    const q = question.toLowerCase().trim();
+    for (const item of KB){
+      for (const key of item.keys){
+        if (q.includes(key.toLowerCase())) return item.reply;
+      }
+    }
+    return null;
+  }
+
+  function respond(question){
+    showTyping();
+    const delay = 650 + Math.random() * 450;
+    setTimeout(() => {
+      hideTyping();
+      const answer = findAnswer(question);
+      if (answer){
+        addMessage(answer, 'bot');
+      } else {
+        addMessage(`لم أفهم سؤالك بشكل كامل 🤔\n\nلكن يمكنني مساعدتك في:\n• الأسعار والباقات\n• التحميل والتثبيت\n• المميزات والشاشات\n• الدعم الفني والموزعين\n\nاختر من الأزرار أو أعد صياغة سؤالك.`, 'bot');
+      }
+      showQuickOptions();
+    }, delay);
+  }
+
+  function showQuickOptions(){
+    chatQuick.innerHTML = '';
+    quickOptions.forEach(opt => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip';
+      btn.textContent = opt.label;
+      btn.addEventListener('click', () => handleUserMessage(opt.value));
+      chatQuick.appendChild(btn);
+    });
+  }
+
+  function showWhatsAppCTA(){
+    showTyping();
+    setTimeout(() => {
+      hideTyping();
+      addMessage(`لقد استفسرت عن ${userMsgCount} أسئلة حتى الآن 🌟\n\nللإجراءات الفعلية مثل الاشتراك أو التخصيص أو حل مشكلة تقنية، التواصل مع الدعم البشري أفضل بكثير وسيخدمك بشكل أسرع.\n\nاضغط الزر أدناه للتحدث مباشرة مع فريق الدعم الفني:`, 'bot');
+      const wrap = document.createElement('div');
+      wrap.className = 'msg bot';
+      wrap.innerHTML = `
+        <img src="logo.png" alt="سريع" class="avatar">
+        <a href="https://wa.me/201142493701?text=مرحباً%20فريق%20سريع،%20أحتاج%20مساعدة%20في%20نظام%20الكاشير"
+           target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#25d366 0%,#128c47 100%);color:#fff;padding:12px 22px;border-radius:999px;font-weight:800;font-size:.9rem;text-decoration:none;box-shadow:0 10px 25px rgba(37,211,102,.35);">
+          💬 تحدث مع الدعم البشري الآن
+        </a>
+      `;
+      chatBody.appendChild(wrap);
+      chatBody.scrollTop = chatBody.scrollHeight;
+      setTimeout(() => { userMsgCount = 0; showQuickOptions(); }, 1500);
+    }, 850);
+  }
+
+  function handleUserMessage(text){
+    if (!text.trim()) return;
+    addMessage(text, 'user');
+    chatQuick.innerHTML = '';
+    userMsgCount++;
+    if (userMsgCount >= MAX_FREE){ showWhatsAppCTA(); return; }
+    respond(text);
+  }
+
+  function openChat(){
+    chatWindow.classList.add('open');
+    if (chatBadge) chatBadge.style.display = 'none';
+    if (!chatInitialized){
+      chatInitialized = true;
+      setTimeout(() => {
+        addMessage(`مرحباً عملينا العزيز 💙\nكيف يمكنني مساعدتك اليوم؟\n\nاختر من الأزرار أدناه أو اكتب سؤالك بحرية، وسأرد عليك في لحظات.`, 'bot');
+        showQuickOptions();
+      }, 350);
+    }
+    setTimeout(() => { if (chatInput) chatInput.focus(); }, 450);
+  }
+  function closeChat(){ chatWindow.classList.remove('open'); }
+
+  chatToggle.addEventListener('click', () => {
+    if (chatWindow.classList.contains('open')) closeChat();
+    else openChat();
+  });
+  chatClose.addEventListener('click', closeChat);
+
+  chatForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const text = chatInput.value.trim();
+    if (!text) return;
+    chatInput.value = '';
+    handleUserMessage(text);
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && chatWindow.classList.contains('open')) closeChat();
+  });
+})();
 </script>
 
 </body>
